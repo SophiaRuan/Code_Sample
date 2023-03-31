@@ -1,0 +1,4 @@
+# no explicit UNITS action here
+d: DISTANCE ATOMS=3188,3200
+t: TORSION ATOMS=3188,3189,3200,3201
+PRINT ARG=d,t FILE=colvar_torsion1
